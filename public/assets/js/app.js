@@ -1,5 +1,5 @@
 // ========== CONFIGURAÇÕES E VARIÁVEIS GLOBAIS ==========
-const urlBase = 'http://localhost:3000';
+const urlBase = 'https://deploy-site-time-works.onrender.com';
 const urlTarefas = `${urlBase}/tarefas`;
 const urlTodoTasks = `${urlBase}/todo_tasks`;
 let tarefas = [];

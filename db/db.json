@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUserId": 1750629162903
+    "lastUserId": 1750633337474
   },
   "achievements": [
     {
@@ -557,6 +557,174 @@
       "sequencia": 0,
       "userId": "user1750613278033",
       "serieId": null
+    },
+    {
+      "titulo": "teste do caralho",
+      "data": "2025-06-23",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Não repete",
+      "exp": 10,
+      "sequencia": 0,
+      "userId": "user1750632912173",
+      "serieId": null,
+      "id": "lhfaNlC"
+    },
+    {
+      "titulo": "XP https://deploy-site",
+      "data": "2025-06-22",
+      "hora": "23:00",
+      "prioridade": "Muito alta",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Não repete",
+      "exp": 10,
+      "sequencia": 0,
+      "userId": "user1750632912173",
+      "serieId": null,
+      "id": "Ic9huWR"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-24",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 1,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "0CFxFep"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-25",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 2,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "mgUnEjE"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-26",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 3,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "RlddlEn"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-27",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 4,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "q-yzpAQ"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-28",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 5,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "UNzPlnT"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-29",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 1,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "A8eoXfz"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-30",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 1,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "rQd8NKl"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-28",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": false,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 0,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "3zzJ7aN"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-29",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": false,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 0,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "_E26S6h"
+    },
+    {
+      "titulo": "Xppppasda",
+      "data": "2025-06-30",
+      "hora": "08:00:00",
+      "prioridade": "Média",
+      "descricao": "",
+      "realizada": true,
+      "recorrencia": "Diariamente",
+      "exp": 10,
+      "sequencia": 1,
+      "userId": "user1750632912173",
+      "serieId": "serie-1750633097487",
+      "id": "-BW4QBT"
     }
   ],
   "users": [
@@ -584,6 +752,30 @@
       "level": 1,
       "hasSeenTutorial": true,
       "unlockedAchievements": []
+    },
+    {
+      "id": "user1750632912173",
+      "senha": "12345",
+      "name": "Usuário da Silva",
+      "profilePic": "assets/img/man2.png",
+      "xp": 0,
+      "level": 2,
+      "hasSeenTutorial": true,
+      "unlockedAchievements": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "user1750633337474",
+      "senha": "1234",
+      "name": "teste",
+      "profilePic": "assets/img/man.png",
+      "xp": 0,
+      "level": 1,
+      "hasSeenTutorial": true,
+      "unlockedAchievements": []
     }
   ],
   "todo_tasks": [
@@ -598,6 +790,12 @@
       "text": "Comprar tênis",
       "completed": false,
       "userId": "user1750613278033"
+    },
+    {
+      "text": "Testandooo",
+      "completed": false,
+      "userId": "user1750632912173",
+      "id": "PqN08sZ"
     }
   ]
 }
