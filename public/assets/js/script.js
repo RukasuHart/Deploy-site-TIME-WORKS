@@ -688,7 +688,7 @@ function salvarTarefa() {
             tarefaEditada.sequencia = 0;
         }
 
-        fetch(`http://localhost:3000/tarefas/${tarefaEditandoId}`, {
+        fetch(`https://deploy-site-time-works.onrender.com/tarefas/${tarefaEditandoId}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(tarefaEditada)
@@ -709,7 +709,7 @@ function salvarTarefa() {
             exp: 10, sequencia: 0, userId, serieId: serieId
         };
 
-        fetch('http://localhost:3000/tarefas', {
+        fetch('https://deploy-site-time-works.onrender.com/tarefas', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(novaTarefa)
@@ -795,7 +795,7 @@ function gerarTarefasRecorrentes(tarefaBase) {
         tarefa.realizada = false;
         tarefa.userId = tarefaBase.userId;
 
-        fetch('http://localhost:3000/tarefas', {
+        fetch('https://deploy-site-time-works.onrender.com/tarefas', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(tarefa)
@@ -804,7 +804,7 @@ function gerarTarefasRecorrentes(tarefaBase) {
 }
 
 function excluirTarefa(idTarefa) {
-    fetch(`http://localhost:3000/tarefas/${idTarefa}`, {
+    fetch(`https://deploy-site-time-works.onrender.com/tarefas/${idTarefa}`, {
         method: 'DELETE'
     })
         .then(() => {

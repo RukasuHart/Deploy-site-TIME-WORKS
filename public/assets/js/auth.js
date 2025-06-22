@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function getNextUserId() {
         try {
-            const response = await fetch('http://localhost:3000/metadata');
+            const response = await fetch('https://deploy-site-time-works.onrender.com/metadata');
             const metadata = await response.json();
             let lastUserId = metadata.lastUserId || 0;
             return `user${newUserIdNumber}`;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function updateLastUserId(newNumber) {    
         try {
-            await fetch('http://localhost:3000/metadata', {
+            await fetch('https://deploy-site-time-works.onrender.com/metadata', {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json'
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
 
-            const response = await fetch(`http://localhost:3000/users?name=${loginUsername}&senha=${loginPassword}`);
+            const response = await fetch(`https://deploy-site-time-works.onrender.com/users?name=${loginUsername}&senha=${loginPassword}`);
             const users = await response.json();
 
             if (users.length > 0) {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const profilePic = "assets/img/man.png";
 
         try {
-            const checkNameResponse = await fetch(`http://localhost:3000/users?name=${registerUsername}`);
+            const checkNameResponse = await fetch(`https://deploy-site-time-works.onrender.com/users?name=${registerUsername}`);
             const existingUsersByName = await checkNameResponse.json();
 
             if (existingUsersByName.length > 0) {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 unlockedAchievements: []
             };
 
-            const response = await fetch('http://localhost:3000/users', {
+            const response = await fetch('https://deploy-site-time-works.onrender.com/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

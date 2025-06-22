@@ -3,7 +3,7 @@ let allAchievements = [];
 async function fetchAllAchievements() {
      if (allAchievements.length > 0) return;
     try {
-        const response = await fetch('http://localhost:3000/achievements');
+        const response = await fetch('https://deploy-site-time-works.onrender.com/achievements');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -25,7 +25,7 @@ async function unlockAchievement(achievementId, userData) {
 
     userData.unlockedAchievements.push(achievementId);
     try {
-        await fetch(`http://localhost:3000/users/${userData.id}`, {
+        await fetch(`https://deploy-site-time-works.onrender.com/users/${userData.id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(userData)

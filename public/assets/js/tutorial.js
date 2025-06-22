@@ -20,7 +20,7 @@ function initTutorial() {
         if (!userId) return;
 
         try {
-            await fetch(`http://localhost:3000/users/${userId}`, {
+            await fetch(`https://deploy-site-time-works.onrender.com/${userId}`, {
                 method: 'PATCH', headers: {
                     'Content-Type': 'application/json'
                 },

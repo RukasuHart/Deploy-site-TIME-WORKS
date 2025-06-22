@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentUserId = localStorage.getItem('currentUserId');
     let userData = {};
 
-    const urlUsers = `http://localhost:3000/users/${currentUserId}`;
+    const urlUsers = `https://deploy-site-time-works.onrender.com/users/${currentUserId}`;
 
     async function fetchUserData() {
         try {
